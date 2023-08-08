@@ -1,0 +1,52 @@
+public class Encapsulation {
+
+	private String name;
+	private int age;
+	private double salary;
+	private char initilal;
+
+	public String getName() {
+		return name;
+	}
+
+	public void setName(String name) {
+		this.name = name;
+	}
+
+	public int getAge() {
+		return age;
+	}
+
+	public void setAge(int age) {
+		this.age = age;
+	}
+
+	public double getSalary() {
+		return salary;
+	}
+
+	public void setSalary(double salary) {
+		this.salary = salary;
+	}
+
+	public char getInitilal() {
+		return initilal;
+	}
+
+	public void setInitilal(char initilal) {
+		this.initilal = initilal;
+	}
+
+	public static void main(String[] args) {
+		Encapsulation a = new Encapsulation();
+		a.setName("anto");
+		a.setAge(24);
+		a.setSalary(15000);
+		a.setInitilal('a');
+		System.out.println(a.getName());
+		System.out.println(a.getInitilal());
+		System.out.println(a.getAge());
+		System.out.println(a.getSalary());
+
+	}
+}
