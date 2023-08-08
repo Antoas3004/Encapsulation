@@ -1,0 +1,17 @@
+public class Frist_Examble {
+	private String name;
+
+	public String getName() {
+		return name;
+	}
+
+	public void setName(String name) {
+		this.name = name;
+	}
+
+	public static void main(String[] args) {
+		Frist_Examble a = new Frist_Examble();
+		a.setName("anto");
+		System.out.println(a.getName());
+	}
+}
