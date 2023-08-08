@@ -1,0 +1,45 @@
+public class Examble {
+	private String name;
+	private int age;
+	private double salary;
+
+	public String getName() {
+		return name;
+	}
+
+	public void setName(String name) {
+		this.name = name;
+	}
+
+	public int getAge() {
+		return age;
+	}
+
+	public void setAge(int age) {
+		this.age = age;
+	}
+
+	public double getSalary() {
+		return salary;
+	}
+
+	public void setSalary(double salary) {
+		this.salary = salary;
+	}
+
+	public static void main(String[] args) {
+		Examble e1 = new Examble();
+		e1.setName("Anto.AS");
+		e1.setAge(23);
+		e1.setSalary(15000);
+		System.out.println(e1.getName());
+		System.out.println(e1.getAge());
+		System.out.println(e1.getSalary());
+		Examble e2 = new Examble();
+		e2.setName("anto");
+		System.out.println(e2.getName());
+		System.out.println(e2.getAge());
+		Examble e3 = new Examble();
+		System.out.println(e3.getName());
+	}
+}
