@@ -1,0 +1,71 @@
+public class Examble2 {
+	private String name;
+	private int age;
+	private double salary;
+	private String grade;
+	private int rank;
+
+	public String getName() {
+		return name;
+	}
+
+	public void setName(String name) {
+		this.name = name;
+	}
+
+	public int getAge() {
+		return age;
+	}
+
+	public void setAge(int age) {
+		this.age = age;
+	}
+
+	public double getSalary() {
+		return salary;
+	}
+
+	public void setSalary(double salary) {
+		this.salary = salary;
+	}
+
+	public String getGrade() {
+		return grade;
+	}
+
+	public void setGrade(String grade) {
+		this.grade = grade;
+	}
+
+	public int getRank() {
+		return rank;
+	}
+
+	public void setRank(int rank) {
+		this.rank = rank;
+	}
+
+	public static void main(String[] args) {
+		Examble2 a = new Examble2();
+		a.setAge(23);
+		a.setName("Anto");
+		a.setSalary(15000.00);
+		System.out.println("name:" + " " + a.getName());
+		System.out.println("age:" + " " + a.getAge());
+		System.out.println("salary:" + " " + a.getSalary());
+		Examble2 a2 = new Examble2();
+		a2.setAge(21);
+		a2.setName("ragu");
+		a2.setSalary(15000.00);
+		System.out.println("name:" + " " + a2.getName());
+		System.out.println("age:" + " " + a2.getGrade());
+		System.out.println("salary:" + " " + a2.getAge());
+		Examble2 a3 = new Examble2();
+		a3.setAge(19);
+		a3.setName("gladi");
+		a3.setSalary(15000.00);
+		System.out.println("name:" + " " + a3.getName());
+		System.out.println("age:" + " " + a3.getAge());
+		System.out.println("salary:" + " " + a3.getGrade());
+	}
+}
